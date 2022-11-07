@@ -1,0 +1,72 @@
+body{
+    background-image:linear-gradient(to right, rgb(209, 209, 194), rgb(0, 187, 255));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+header{
+    text-align: center;
+    background-image:linear-gradient(to top, rgb(248, 248, 248), rgb(0, 187, 255));
+    border: 2px solid black;
+    border-radius: 20px;   
+}
+header h1{
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+    font-size: 500;
+    text-decoration: underline;
+}
+header p{
+    font-size: 20px;
+    font-family: cursive;
+    text-align: center;
+    font-size: 500;
+    font-style: italic;
+    text-decoration: underline;
+}
+.formcadastro{
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 410px;
+    background-image:linear-gradient(to top, rgb(255, 255, 255), rgb(0, 187, 255));
+    font-size: 20px;
+    border: 1.5px solid black;
+    border-radius: 15px;
+    padding: 0px 10px;
+}
+#botaocadastro{
+    border: 2px solid black;
+    border-radius: 7px;
+    margin-top: 20px;
+    background-image:linear-gradient(to right, rgb(209, 209, 194), rgb(0, 187, 255));
+    font-size: 30px;
+    height: 50px;
+    width: 200px;
+    cursor: pointer;
+}
+#botaologin{
+    border: 2px solid black;
+    border-radius: 7px;
+    margin-top: 20px;
+    background-image:linear-gradient(to right, rgb(209, 209, 194), rgb(0, 187, 255));
+    font-size: 30px;
+    height: 50px;
+    width: 200px;
+    cursor: pointer;
+}
+.formlogin{
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 410px;
+    background-image:linear-gradient(to top, rgb(255, 255, 255), rgb(0, 187, 255));
+    font-size: 20px;
+    border: 1.5px solid black;
+    border-radius: 15px;
+    padding: 0px 10px;
+}
