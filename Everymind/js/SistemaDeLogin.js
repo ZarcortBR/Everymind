@@ -34,41 +34,45 @@ function verificarlogin(escolha)
     }
     else
     {
-        if (email!= usuarioValido && senha =="")
+        let usuarioValido = email;
+        let senhaValida = senha;    
+        usuarioLogin = document.getElementById("usuariologin").value;
+        senhaLogin = document.getElementById("senhalogin").value;
+        if (usuarioLogin != usuarioValido && senhaLogin =="")
         {
-            alert("Email invalido, Senha Vazio.");
+            alert("Usuario Invalido, Senha Vazia.");
         }
-        else if(email!= usuarioValido && senha != senhaValida)
+        else if(usuarioLogin != usuarioValido && senhaLogin != senhaValida)
         {
-            alert("Email invalido e a senha invalida.");
+            alert("Usuario Invalido e a senha invalida.");
         }
-        else if (email!= usuarioValido && senha == senhaValida)
+        else if (usuarioLogin != usuarioValido && senhaLogin == senhaValida)
         {
-            alert("Email valido, senha invalida.");
+            alert("Usuario Valido, senha invalida.");
         }
         // Vazio
-        else if (usuario=="" && senha =="") 
+        else if (usuarioLogin=="" && senhaLogin =="") 
         {
-            alert("Email e senha vazio.");
+            alert("Usuario e senha vazia.");
         }
-        else if (email== "" && senha != senhaValida)
+        else if (usuarioLogin == "" && senhaLogin != senhaValida)
         {
-            alert("Email vazio e senha invalida");
+            alert("Usuario vazio e senha invalida");
         }
-        else if (email== "" && senha == senhaValida) 
+        else if (usuarioLogin == "" && senhaLogin == senhaValida) 
         {
-            alert("Email vazio, senha valida."); 
+            alert("Usuario Vazio, senha valida."); 
         }
-        //emailValido
-        else if (email== usuarioValido && senha == "") 
+        //Usuario Valido
+        else if (usuarioLogin == usuarioValido && senhaLogin == "") 
         {
-            alert("Email vazio, senha vazia.");  
+            alert("Usuario Vazio, senha vazia.");  
         }
-        else if (email== usuarioValido && senha != senhaValida)
+        else if (usuarioLogin == usuarioValido && senhaLogin != senhaValida)
         {
-            alert("Email valido, senha invalida.");
+            alert("Usuario Valido, senha invalida.");
         }
-        else if (email== usuarioValido && senha == senhaValida) 
+        else if (usuarioLogin == usuarioValido && senhaLogin == senhaValida) 
         {
             alert("Login realizado com sucesso\nBem vindo")
         }    
