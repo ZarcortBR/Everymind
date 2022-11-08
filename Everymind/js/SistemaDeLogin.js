@@ -34,8 +34,6 @@ function verificarlogin(escolha)
     }
     else
     {
-        let usuarioValido = email;
-        let senhaValida = senha;
         if (email!= usuarioValido && senha =="")
         {
             alert("Email invalido, Senha Vazio.");
